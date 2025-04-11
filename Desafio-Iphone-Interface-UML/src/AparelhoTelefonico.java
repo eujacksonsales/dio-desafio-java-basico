@@ -1,5 +1,4 @@
 public interface AparelhoTelefonico {
-    String meuNumero = "";
 
     void ligar(String numero);
 
