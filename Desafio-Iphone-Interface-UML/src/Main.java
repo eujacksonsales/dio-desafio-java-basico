@@ -33,7 +33,7 @@ public class Main {
                     iphone.ligar(numeroPretendido);
                 }
                 case 5 -> iphone.atender();
-                case 6 -> iphone.inicarCorreiroVoz();
+                case 6 -> iphone.iniciarCorreiroVoz();
                 case 7 -> {
                     System.out.print("Digite a URL da página: ");
                     String url = scanner.next();

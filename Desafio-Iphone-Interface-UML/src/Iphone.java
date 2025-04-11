@@ -11,7 +11,7 @@ public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorI
     }
 
     @Override
-    public void inicarCorreiroVoz() {
+    public void iniciarCorreiroVoz() {
         System.out.println("Iniciando correiro de voz");
     }
 

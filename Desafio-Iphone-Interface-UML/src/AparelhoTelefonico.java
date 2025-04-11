@@ -1,9 +1,9 @@
 public interface AparelhoTelefonico {
     String meuNumero = "";
 
-    public void ligar(String numero);
+    void ligar(String numero);
 
-    public void atender();
+    void atender();
 
-    public void inicarCorreiroVoz();
+    void iniciarCorreiroVoz();
 }

@@ -1,8 +1,8 @@
 public interface NavegadorInternet {
-    public void exibirPagina(String url);
+    void exibirPagina(String url);
 
-    public void adicionarNovaAba();
+    void adicionarNovaAba();
 
-    public void atualizarPagina();
+    void atualizarPagina();
 
 }

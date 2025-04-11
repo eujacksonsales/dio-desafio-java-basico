@@ -1,8 +1,8 @@
 public interface ReprodutorMusical {
-    public void tocar();
+    void tocar();
 
-    public void pausar();
+    void pausar();
 
-    public void selecionarMusica(String musica);
+    void selecionarMusica(String musica);
 
 }
